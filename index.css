@@ -1,0 +1,64 @@
+* {margin: 0px;
+    padding: 0px;}
+    body {padding: 16px;
+    font-family: "Montserrat", sans-serif;}
+    .mycard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .desktop-padding-top {
+    padding-top: 0;
+    }
+    
+    @media (min-width: 992px) {
+    body {padding: 60px;
+    }
+    .mycard {height: 70vh !important;
+    }
+    .desktop-padding-top {
+    padding-top: 100px;
+        }
+    }
+    
+    .slika {
+    width: 100%;
+    border-radius: 10px;
+    }
+    .h1t {color: #081158;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 45px;}
+    .p1t {color: gray;}
+    .h6t {color: #FBB244;
+    background-color: rgba(251, 178, 68, 0.2);
+    font-weight: 700;
+    font-size: 10px;
+    padding: 5px 20px;
+    display: inline-block;  
+    border-radius: 30px;
+    cursor: pointer;}
+    .ht2 {font-weight: 700;
+    font-size: 17px;}
+    .imgt2 {height: 50px;
+    }
+    .yourcard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .desktop-padding-top {
+        padding-top: 0;
+        }
+        
+        @media (min-width: 992px) {
+        body {padding: 60px;
+        }
+        .yourcard {height: 70vh !important;
+        ;}
+        .desktop-padding-top {
+        padding-top: 100px;
+        }
+    }
+    ul {color: gray;
+    list-style: disc;}
